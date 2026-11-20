@@ -13,3 +13,14 @@ demo/src/public/**/plnkr.html
 demo/src/public/**/stackblitz.html
 local.docs.json
 yarn-error.log
+
+# Keep credentials and personal records out of Git.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pfx
+*.p12
+id_rsa
+id_ed25519
